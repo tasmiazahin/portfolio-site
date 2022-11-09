@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
   </head>
+  <style>
+    /* body {font-family: Arial, Helvetica, sans-serif;} */
+    
+    
+    </style>
   <body>
     <header>
       <nav class="main-nav">
@@ -47,22 +52,43 @@
             <div class="right-side">
                 <div class="topic-text">Send me a message</div>
                 <p>If you have any quries about me and my work, you can send me message from here. It's my pleasure to help you.</p>
-                <form action="#">
+                <form action="">
                     <div class="input-box">
-                        <input type="text" placeholder="Enter your name">
+                        <input type="text" id ="name" placeholder="Enter your name">
                     </div>
                     <div class="input-box">
-                        <input type="text" placeholder="Enter your email">
+                        <input type="email" id ="email" placeholder="Enter your email">
                     </div>
                     <div class="input-box message-box">
-                        <textarea placeholder="Enter your message"></textarea>
+                        <textarea id="message" placeholder="Enter your message"></textarea>
                     </div>
                     <div class="button">
-                        <input type="button" value="Send Now" >
+                        <input type="button" id="sentMessage" value="Send Now">
                     </div>
                 </form>
             </div>
         </div>
     </div>
+    <!-- The Modal -->
+  <div id="contactModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2>Message sent</h2>
+      </div>
+      <div class="modal-body">
+
+      </div>
+      <div class="modal-footer">
+        <h3>Thank you for contacting me!</h3>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+    <script src="js/contact.js"></script>
   </body>
 </html>
