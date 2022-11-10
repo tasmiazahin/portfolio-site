@@ -2,10 +2,13 @@ const url = "https://api.github.com/users/tasmiazahin/repos";
 const  imagesUrl = "images.json";
 
 const projects = document.querySelector(".portfolio");
+projects.innerHTML = `<p>Loading...</p>`;
+
 
 async function getData(){
     let response  = await fetch(url);
     if(response.ok){
+        projects.innerHTML = ``;
         let json = await  response.json();
         let responseImages = await fetch (imagesUrl);
         let imagesJson = await responseImages.json()
