@@ -385,13 +385,6 @@ hr {
   grid-column: span 2;
 }
 
-.portfolio-item.project1{
-  background-image: url("../img/blog.png");
-}
-
-.portfolio-item.project2{
-  background-image: url("../img/responsive.png");
-}
 .item-details{
   letter-spacing: .2rem;
   padding :30px;
@@ -407,7 +400,7 @@ hr {
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.85);
 }
 
-/*Modal*/
+/*Modal sections*/
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
