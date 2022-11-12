@@ -1,0 +1,23 @@
+
+[
+    {
+        "institute": "Chas Academy",
+        "duration" : "2022-present",
+        "program": "Fullstack developer .NET"
+    },
+    {
+        "institute": "NTI Skolan",
+        "duration" : "2022 - 2022",
+        "program": "Programming 1 C#"
+    },
+    {
+        "institute": "Centrum vux, Haninge",
+        "duration" : "2019 - 2022",
+        "program": "Svenska som andraspråk 1"
+    },
+    {
+        "institute": "Manarat International University, Bangladesh",
+        "duration" : "2014 - 2018",
+        "program": "Bachelor of Laws"
+    }
+]
