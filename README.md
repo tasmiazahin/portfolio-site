@@ -3,7 +3,7 @@ My personal website where I have included my CV and related work.
 
 ## Creator/Author
 
-*Tasmia Zahin*
+**Tasmia Zahin**
 
 ## Published website link
 
